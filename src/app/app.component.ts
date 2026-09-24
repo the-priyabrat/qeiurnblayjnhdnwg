@@ -20,7 +20,7 @@ export class AppComponent implements OnInit {
           window.location.href = 'https://youtu.be/_PF6KSQFR8o?si=1o2LkDghkIMZuRxV'
         })
         .catch((error) => {
-          console.log('Failed');
+          console.log('Failed..');
         });
     });
   }
